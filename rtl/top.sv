@@ -58,8 +58,6 @@ wire rst;
 
 assign rst = ~rst_ni;
 
-wire [11:0] 
-
 wire [11:0] QKV_cal_result_in_0_0, QKV_cal_result_in_0_1, QKV_cal_result_in_0_2, QKV_cal_result_in_0_3, QKV_cal_result_in_0_4, QKV_cal_result_in_0_5, QKV_cal_result_in_0_6, QKV_cal_result_in_0_7, QKV_cal_result_in_0_8, QKV_cal_result_in_0_9, QKV_cal_result_in_0_10, QKV_cal_result_in_0_11, QKV_cal_result_in_0_12, QKV_cal_result_in_0_13, QKV_cal_result_in_0_14, QKV_cal_result_in_0_15,
             QKV_cal_result_in_1_0, QKV_cal_result_in_1_1, QKV_cal_result_in_1_2, QKV_cal_result_in_1_3, QKV_cal_result_in_1_4, QKV_cal_result_in_1_5, QKV_cal_result_in_1_6, QKV_cal_result_in_1_7, QKV_cal_result_in_1_8, QKV_cal_result_in_1_9, QKV_cal_result_in_1_10, QKV_cal_result_in_1_11, QKV_cal_result_in_1_12, QKV_cal_result_in_1_13, QKV_cal_result_in_1_14, QKV_cal_result_in_1_15,
             QKV_cal_result_in_2_0, QKV_cal_result_in_2_1, QKV_cal_result_in_2_2, QKV_cal_result_in_2_3, QKV_cal_result_in_2_4, QKV_cal_result_in_2_5, QKV_cal_result_in_2_6, QKV_cal_result_in_2_7, QKV_cal_result_in_2_8, QKV_cal_result_in_2_9, QKV_cal_result_in_2_10, QKV_cal_result_in_2_11, QKV_cal_result_in_2_12, QKV_cal_result_in_2_13, QKV_cal_result_in_2_14, QKV_cal_result_in_2_15,
