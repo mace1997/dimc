@@ -20,6 +20,7 @@ sources:
       # DIMC top
       # ----------------------------
       - rtl/snax_interfaces_rtl.v
+      - rtl/top.sv
 
   - target: dimc
     files:
