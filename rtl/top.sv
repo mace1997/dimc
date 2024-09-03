@@ -4,13 +4,13 @@ module SNAX_DIMC # (
     parameter int unsigned NarrowDataWidth = 64,
     parameter int unsigned WideDataWidth   = 512,
     parameter int unsigned RegAddrWidth    = 32,
-    parameter int unsigned RegDataWidth    = 32,
+    parameter int unsigned RegDataWidth    = 32
 )(
     /**************************************************************************/
     // Clock and reset
     /**************************************************************************/
     input  logic                       clk_i,
-    input  logic                       rst,
+    input  logic                       rst_ni,
 
     /**************************************************************************/
     // Accelerator ports
@@ -53,6 +53,10 @@ module SNAX_DIMC # (
 );
 
 // Internal signals
+
+wire rst;
+
+assign rst = ~rst_ni;
 
 wire [11:0] 
 
@@ -188,6 +192,9 @@ wire       QKV_selcet_out_0, QKV_selcet_out_1, QKV_selcet_out_2, QKV_selcet_out_
 wire       QKT_select_out_0, QKT_select_out_1, QKT_select_out_2, QKT_select_out_3;
 
 snax_interfaces i_snax_interfaces(
+    .clk(clk_i),
+    .rst(rst),
+
     .snax_acc_req_valid(csr_req_valid_i),
     .snax_acc_req_data_addr(csr_req_addr_i),
     .snax_acc_req_data_wen(csr_req_write_i),
