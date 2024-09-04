@@ -392,9 +392,7 @@ snax_interfaces i_snax_interfaces(
 
     .QKT_is_write_out_0(QKT_is_write_out_0), .QKT_is_write_out_1(QKT_is_write_out_1), .QKT_is_write_out_2(QKT_is_write_out_2), .QKT_is_write_out_3(QKT_is_write_out_3), 
 
-    .QKT_select_out_0(QKT_select_out_0), .QKT_select_out_1(QKT_select_out_1), .QKT_select_out_2(QKT_select_out_2), .QKT_select_out_3(QKT_select_out_3), 
-
-
+    .QKT_select_out_0(QKT_select_out_0), .QKT_select_out_1(QKT_select_out_1), .QKT_select_out_2(QKT_select_out_2), .QKT_select_out_3(QKT_select_out_3)
 );
 
 dimc_macro i_dimc_macro_0(.input_addr(QKV_addr_out_0), 
@@ -639,7 +637,7 @@ dimc_macro i_dimc_macro_33(.input_addr(QKT_addr_out_1),
                           .input_weight_0(QKT_weight_out_1_0), .input_weight_1(QKT_weight_out_1_1), .input_weight_2(QKT_weight_out_1_2), .input_weight_3(QKT_weight_out_1_3), .input_weight_4(QKT_weight_out_1_4), .input_weight_5(QKT_weight_out_1_5), .input_weight_6(QKT_weight_out_1_6), .input_weight_7(QKT_weight_out_1_7), .input_weight_8(QKT_weight_out_1_8), .input_weight_9(QKT_weight_out_1_9), .input_weight_10(QKT_weight_out_1_10), .input_weight_11(QKT_weight_out_1_11), .input_weight_12(QKT_weight_out_1_12), .input_weight_13(QKT_weight_out_1_13), .input_weight_14(QKT_weight_out_1_14), .input_weight_15(QKT_weight_out_1_15),
                           .input_data_0(QKT_data_out_1_0), .input_data_1(QKT_data_out_1_1), .input_data_2(QKT_data_out_1_2), .input_data_3(QKT_data_out_1_3), .input_data_4(QKT_data_out_1_4), .input_data_5(QKT_data_out_1_5), .input_data_6(QKT_data_out_1_6), .input_data_7(QKT_data_out_1_7), .input_data_8(QKT_data_out_1_8), .input_data_9(QKT_data_out_1_9), .input_data_10(QKT_data_out_1_10), .input_data_11(QKT_data_out_1_11), .input_data_12(QKT_data_out_1_12), .input_data_13(QKT_data_out_1_13), .input_data_14(QKT_data_out_1_14), .input_data_15(QKT_data_out_1_15),
                           .is_write_(QKT_is_write_out_1), .select_(QKT_selcet_out_1),
-                          .calc_result_0(QKT_calc_result_1_0),
+                          .calc_result_0(QKT_calc_result_1_0), .calc_result_1(QKT_calc_result_1_1), .calc_result_2(QKT_calc_result_1_2), .calc_result_3(QKT_calc_result_1_3), .calc_result_4(QKT_calc_result_1_4), .calc_result_5(QKT_calc_result_1_5), .calc_result_6(QKT_calc_result_1_6), .calc_result_7(QKT_calc_result_1_7), .calc_result_8(QKT_calc_result_1_8), .calc_result_9(QKT_calc_result_1_9), .calc_result_10(QKT_calc_result_1_10), .calc_result_11(QKT_calc_result_1_11), .calc_result_12(QKT_calc_result_1_12), .calc_result_13(QKT_calc_result_1_13), .calc_result_14(QKT_calc_result_1_14), .calc_result_15(QKT_calc_result_1_15)
 
 );
 
@@ -647,7 +645,7 @@ dimc_macro i_dimc_macro_34(.input_addr(QKT_addr_out_2),
                           .input_weight_0(QKT_weight_out_2_0), .input_weight_1(QKT_weight_out_2_1), .input_weight_2(QKT_weight_out_2_2), .input_weight_3(QKT_weight_out_2_3), .input_weight_4(QKT_weight_out_2_4), .input_weight_5(QKT_weight_out_2_5), .input_weight_6(QKT_weight_out_2_6), .input_weight_7(QKT_weight_out_2_7), .input_weight_8(QKT_weight_out_2_8), .input_weight_9(QKT_weight_out_2_9), .input_weight_10(QKT_weight_out_2_10), .input_weight_11(QKT_weight_out_2_11), .input_weight_12(QKT_weight_out_2_12), .input_weight_13(QKT_weight_out_2_13), .input_weight_14(QKT_weight_out_2_14), .input_weight_15(QKT_weight_out_2_15),
                           .input_data_0(QKT_data_out_2_0), .input_data_1(QKT_data_out_2_1), .input_data_2(QKT_data_out_2_2), .input_data_3(QKT_data_out_2_3), .input_data_4(QKT_data_out_2_4), .input_data_5(QKT_data_out_2_5), .input_data_6(QKT_data_out_2_6), .input_data_7(QKT_data_out_2_7), .input_data_8(QKT_data_out_2_8), .input_data_9(QKT_data_out_2_9), .input_data_10(QKT_data_out_2_10), .input_data_11(QKT_data_out_2_11), .input_data_12(QKT_data_out_2_12), .input_data_13(QKT_data_out_2_13), .input_data_14(QKT_data_out_2_14), .input_data_15(QKT_data_out_2_15),
                           .is_write_(QKT_is_write_out_2), .select_(QKT_selcet_out_2),
-                          .calc_result_0(QKT_calc_result_2_0),
+                          .calc_result_0(QKT_calc_result_2_0), .calc_result_1(QKT_calc_result_2_1), .calc_result_2(QKT_calc_result_2_2), .calc_result_3(QKT_calc_result_2_3), .calc_result_4(QKT_calc_result_2_4), .calc_result_5(QKT_calc_result_2_5), .calc_result_6(QKT_calc_result_2_6), .calc_result_7(QKT_calc_result_2_7), .calc_result_8(QKT_calc_result_2_8), .calc_result_9(QKT_calc_result_2_9), .calc_result_10(QKT_calc_result_2_10), .calc_result_11(QKT_calc_result_2_11), .calc_result_12(QKT_calc_result_2_12), .calc_result_13(QKT_calc_result_2_13), .calc_result_14(QKT_calc_result_2_14), .calc_result_15(QKT_calc_result_2_15)
 
 );
 
@@ -655,7 +653,7 @@ dimc_macro i_dimc_macro_35(.input_addr(QKT_addr_out_3),
                           .input_weight_0(QKT_weight_out_3_0), .input_weight_1(QKT_weight_out_3_1), .input_weight_2(QKT_weight_out_3_2), .input_weight_3(QKT_weight_out_3_3), .input_weight_4(QKT_weight_out_3_4), .input_weight_5(QKT_weight_out_3_5), .input_weight_6(QKT_weight_out_3_6), .input_weight_7(QKT_weight_out_3_7), .input_weight_8(QKT_weight_out_3_8), .input_weight_9(QKT_weight_out_3_9), .input_weight_10(QKT_weight_out_3_10), .input_weight_11(QKT_weight_out_3_11), .input_weight_12(QKT_weight_out_3_12), .input_weight_13(QKT_weight_out_3_13), .input_weight_14(QKT_weight_out_3_14), .input_weight_15(QKT_weight_out_3_15),
                           .input_data_0(QKT_data_out_3_0), .input_data_1(QKT_data_out_3_1), .input_data_2(QKT_data_out_3_2), .input_data_3(QKT_data_out_3_3), .input_data_4(QKT_data_out_3_4), .input_data_5(QKT_data_out_3_5), .input_data_6(QKT_data_out_3_6), .input_data_7(QKT_data_out_3_7), .input_data_8(QKT_data_out_3_8), .input_data_9(QKT_data_out_3_9), .input_data_10(QKT_data_out_3_10), .input_data_11(QKT_data_out_3_11), .input_data_12(QKT_data_out_3_12), .input_data_13(QKT_data_out_3_13), .input_data_14(QKT_data_out_3_14), .input_data_15(QKT_data_out_3_15),
                           .is_write_(QKT_is_write_out_3), .select_(QKT_selcet_out_3),
-                          .calc_result_0(QKT_calc_result_3_0),
+                          .calc_result_0(QKT_calc_result_3_0), .calc_result_1(QKT_calc_result_3_1), .calc_result_2(QKT_calc_result_3_2), .calc_result_3(QKT_calc_result_3_3), .calc_result_4(QKT_calc_result_3_4), .calc_result_5(QKT_calc_result_3_5), .calc_result_6(QKT_calc_result_3_6), .calc_result_7(QKT_calc_result_3_7), .calc_result_8(QKT_calc_result_3_8), .calc_result_9(QKT_calc_result_3_9), .calc_result_10(QKT_calc_result_3_10), .calc_result_11(QKT_calc_result_3_11), .calc_result_12(QKT_calc_result_3_12), .calc_result_13(QKT_calc_result_3_13), .calc_result_14(QKT_calc_result_3_14), .calc_result_15(QKT_calc_result_3_15)
 
 );
 
