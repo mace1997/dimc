@@ -2,7 +2,7 @@
 // Tue Sep  3 12:51:39 2024
 // from qkt_macro_handler_hub.cc
 
-`timescale 1ps / 1ps
+//`timescale 1ps / 1ps
 
 
 module qkt_macro_handler_hub( clk, rst, fwd_streamer_qkt_slave_valid, fwd_streamer_qkt_slave_data_0, fwd_streamer_qkt_slave_data_1, fwd_streamer_qkt_slave_data_2, fwd_streamer_qkt_slave_data_3, fwd_streamer_qkt_slave_data_4, fwd_streamer_qkt_slave_data_5, fwd_streamer_qkt_slave_data_6, fwd_streamer_qkt_slave_data_7, fwd_streamer_qkt_slave_data_8, fwd_streamer_qkt_slave_data_9, fwd_streamer_qkt_slave_data_10, fwd_streamer_qkt_slave_data_11, fwd_streamer_qkt_slave_data_12

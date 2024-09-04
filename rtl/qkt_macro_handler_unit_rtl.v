@@ -2,7 +2,7 @@
 // Tue Sep  3 12:55:45 2024
 // from qkt_macro_handler_unit.cc
 
-`timescale 1ps / 1ps
+// `timescale 1ps / 1ps
 
 
 module qkt_macro_handler_unit( clk, rst, QKT_addr_out, QKT_weight_out_0, QKT_weight_out_1, QKT_weight_out_2, QKT_weight_out_3, QKT_weight_out_4, QKT_weight_out_5, QKT_weight_out_6, QKT_weight_out_7, QKT_weight_out_8, QKT_weight_out_9, QKT_weight_out_10, QKT_weight_out_11, QKT_weight_out_12, QKT_weight_out_13, QKT_weight_out_14, QKT_weight_out_15, QKT_data_out_0, QKT_data_out_1, QKT_data_out_2, QKT_data_out_3, QKT_data_out_4, QKT_data_out_5, QKT_data_out_6, QKT_data_out_7, QKT_data_out_8
